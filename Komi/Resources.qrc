@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>style_sheets/Style.qss</file>
+        <file>icons/arrow-down.png</file>
+        <file>icons/arrow-up.png</file>
+        <file>icons/logo.png</file>
+    </qresource>
+</RCC>

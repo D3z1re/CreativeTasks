@@ -1,0 +1,197 @@
+
+QWidget
+{
+	background-color: #B5DFFF;
+	color: #ffffff;
+	border-color: #1C2227;
+
+}
+
+
+/*-----QComboBox-----*/
+QComboBox
+{
+    background-color: #3B77A6;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #3BB0D7;
+    padding-left: 6px;
+    color: #ffffff;
+    height: 20px;
+
+}
+
+
+QComboBox::disabled
+{
+	background-color: #3B77A6;
+	color: #CFD2DC;
+	border-color: #051a39;
+
+}
+
+
+QComboBox:hover
+{
+    background-color: #353C4F;
+
+}
+
+
+QComboBox:on
+{
+    background-color: #3BB0D7;
+
+}
+
+
+QComboBox QAbstractItemView
+{
+    background-color: #1C2227;
+    color: #ffffff;
+    border: 1px solid black;
+    selection-background-color: #3BB0D7;
+    selection-color: #CFD2DC;
+    outline: 0;
+
+}
+
+
+QComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 0px;
+    border-left-color: darkgray;
+    border-left-style: solid; 
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px;
+
+}
+
+
+QComboBox::down-arrow
+{
+    image: url(:/icons/icons/arrow-down.png);
+    width: 8px;
+    height: 8px;
+}
+
+/*-----QPushButton-----*/
+QPushButton
+{
+	background-color: #3B77A6;
+	color: #ffffff;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #3BB0D7;
+	padding: 10px;
+	highlited:true;
+}
+
+
+QPushButton::hover
+{
+	background-color: #3BB0D7;
+	color: #ffffff;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #B5DFFF;
+	color: #3BB0D7;
+
+}
+
+/*-----QSpinBox & QDoubleSpinBox & QDateTimeEdit-----*/
+QSpinBox, 
+QDoubleSpinBox,
+QDateTimeEdit
+{
+	background-color: #3B77A6;
+	color: #ffffff;
+	border: 2px solid #3BB0D7;
+	border-radius: 10px;
+	padding : 2px;
+
+}
+
+
+
+QSpinBox:hover, 
+QDoubleSpinBox::hover,
+QDateTimeEdit::hover
+{
+    background-color: #4C9AD5;
+    border: 2px solid #6CB2FF;
+    color:  #ffffff;
+    padding: 2px
+
+}
+
+
+QSpinBox::up-button,
+QDoubleSpinBox::up-button,
+QDateTimeEdit::up-button
+{
+    background-color: #3BB0D7;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 1px;
+
+}
+
+QSpinBox::down-button,
+QDoubleSpinBox::down-button,
+QDateTimeEdit::down-button
+{
+    background-color: #3BB0D7;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 1px;
+
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover,
+QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover,
+QDateTimeEdit::up-button:hover, QDateTimeEdit::down-button:hover
+{
+    background-color: #45CDFA;
+    border: 2px solid #45CDFA;
+
+}
+
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed,
+QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button::pressed,
+QDateTimeEdit::up-button:pressed, QDateTimeEdit::down-button::pressed
+{
+    background-color: #B5DFFF;
+    border: 2px solid #CFD2DC;
+
+}
+
+QSpinBox::down-arrow,
+QDoubleSpinBox::down-arrow,
+QDateTimeEdit::down-arrow
+
+{
+    image: url(:/styles/icons/arrow-down.png);
+    width: 7px;
+
+}
+
+
+QSpinBox::up-arrow,
+QDoubleSpinBox::up-arrow,
+QDateTimeEdit::up-arrow
+
+{
+    image: url(:/styles/icons/arrow-up.png);
+    width: 7px;
+
+}
+
+
